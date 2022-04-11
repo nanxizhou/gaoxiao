@@ -24,7 +24,7 @@ header_border = Border(bottom=side, right=side)
 content_border = Border(left=side)
 
 # 设置文件夹路径
-path = './各部门利润表汇总/'
+path = '../各部门利润表汇总/'
 # 返回当前目录下所有文件名
 files = os.listdir(path) 
 

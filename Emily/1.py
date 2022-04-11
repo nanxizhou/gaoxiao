@@ -43,7 +43,7 @@ msg = MIMEMultipart()
 msg.attach(email_content)
 
 # 添加附件到复合邮件对象里
-#msg.attach(attachment)
+msg.attach(attachment)
 
 # 设置发送者信息
 msg['From'] = '陈知枫'
