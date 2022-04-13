@@ -5,4 +5,4 @@ file_path = './material/事业01部_副本.xlsx'
 # 打开工作簿
 wb = load_workbook(file_path)
 # 打开活动工作表
-ws = wb.active
+ws= wb.active
